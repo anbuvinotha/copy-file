@@ -6,20 +6,39 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
+Get the file name and location from the user
 ### Step 2: 
+Give a new file name to create a copy of a file content
  
 ### Step 3: 
+Read the file and close the file
 
-### Step 4:  
+### Step 4:
+Now write the content in the new file  
 
 ### Step 5: 
+When done print  "File copied successfully"
 
 ### Step 6: 
+End of the program
 
 ## PROGRAM:
+'''
+#Developed by: Anbu Vinotha.S
+#Register number: 23013363
+'''
+def copy(fname,newfile):
+    with open(fname,'r')as fp:
+        with open(newfile,'w')as fp1:
+            data=fp.read()
+            fp1.write(data)
+fname=input("Enter an existing file:")
+newfile=input("Enter a name for new file:")
+copy(fname,newfile)
 
 ### OUTPUT:
+![output](<copy ss.png>)
+
 
 
 
