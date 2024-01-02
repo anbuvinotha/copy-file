@@ -23,6 +23,7 @@ When done print  "File copied successfully"
 End of the program
 
 ## PROGRAM:
+```
 '''
 #Developed by: Anbu Vinotha.S
 #Register number: 23013363
@@ -35,6 +36,8 @@ def copy(fname,newfile):
 fname=input("Enter an existing file:")
 newfile=input("Enter a name for new file:")
 copy(fname,newfile)
+
+```
 
 ### OUTPUT:
 ![output](<copy ss.png>)
